@@ -1,0 +1,5 @@
+  
+<launch>
+    <node pkg='rviz' type='rviz' name='rviz' args='-d $(find lab1)/rviz_config.rviz'/>
+    <node pkg='lab1' type='reader' name='main' output='screen'/>
+</launch>
